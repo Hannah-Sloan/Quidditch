@@ -10,8 +10,8 @@ public class BroomFly : MonoBehaviour
     {
         Vector3 direction = PerlinTest.Instance.GetValue(transform.position.x, transform.position.y);
         direction.x = Mathf.Lerp(-1, 1, direction.x);
-        direction.y = Mathf.Lerp(-1, 1, direction.y);
+        //direction.y = Mathf.Lerp(-1, 1, direction.y);
         direction.z = Mathf.Lerp(-1, 1, direction.z);
-        GetComponent<Rigidbody>().velocity = direction.normalized * force;
+        GetComponent<Rigidbody>().AddForce(direction.normalized * force);
     }
 }

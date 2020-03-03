@@ -1904,8 +1904,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: -0.08418008, y: 0.8284215, z: 0.12952995, w: 0.5383806}
-  m_LocalPosition: {x: 13.386644, y: 0.65615654, z: -3.815546}
+  m_LocalRotation: {x: -0.053186674, y: 0.56372005, z: -0.03640975, w: -0.8234472}
+  m_LocalPosition: {x: 72.77674, y: 19.488506, z: -15.729601}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2672,7 +2672,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1601373040}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 11.97, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 5280315004518871746}
@@ -2775,9 +2775,9 @@ MonoBehaviour:
   m_Name: New Aura Base Settings
   m_EditorClassIdentifier: 
   useDensity: 1
-  density: 0.5
+  density: 0.45
   useScattering: 1
-  scattering: 1
+  scattering: 0
   useAmbientLighting: 1
   ambientLightingStrength: 1.25
   useColor: 0
@@ -3530,6 +3530,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1601373041}
     m_Modifications:
+    - target: {fileID: 5063922472324956286, guid: 89c476fc25e026f4fafb5921ec5b61be,
+        type: 3}
+      propertyPath: force
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5862371566528335129, guid: 89c476fc25e026f4fafb5921ec5b61be,
         type: 3}
       propertyPath: m_Name

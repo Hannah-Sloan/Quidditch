@@ -91,7 +91,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 2117424432989225524, guid: 79369fa9664f53a498fd36be756f7d47, type: 3}
 --- !u!1 &2111968946176159855
@@ -185,7 +185,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 8835491837878356591, guid: 79369fa9664f53a498fd36be756f7d47, type: 3}
 --- !u!1 &2154249955430006103
@@ -279,7 +279,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -8411006016650308926, guid: 79369fa9664f53a498fd36be756f7d47, type: 3}
 --- !u!1 &3026068718096325936
@@ -373,7 +373,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -6480733153210773016, guid: 79369fa9664f53a498fd36be756f7d47, type: 3}
 --- !u!1 &3287042854343178714
@@ -467,7 +467,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 7203793515398447662, guid: 79369fa9664f53a498fd36be756f7d47, type: 3}
 --- !u!1 &5862371566528335129
@@ -521,7 +521,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61ec86c2633c77a4e8585c3e558c701a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  force: 1
+  force: 5
 --- !u!54 &9159243424305889490
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -530,10 +530,10 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5862371566528335129}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 0.6
   m_Drag: 0
   m_AngularDrag: 0.05
-  m_UseGravity: 0
+  m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -629,7 +629,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -2788936380037946877, guid: 79369fa9664f53a498fd36be756f7d47, type: 3}
 --- !u!1 &6984992177561525533
@@ -723,6 +723,6 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 2534964839176971238, guid: 79369fa9664f53a498fd36be756f7d47, type: 3}
