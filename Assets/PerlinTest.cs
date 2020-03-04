@@ -32,7 +32,7 @@ public class PerlinTest : Singleton<PerlinTest>
         xOffsetBlue += Time.deltaTime * Random.Range(0f, 4) * scrollSpeed;
         yOffsetBlue += Time.deltaTime * Random.Range(0f, 4) * scrollSpeed;
 
-        //UpdateTexture();
+        UpdateTexture();
     }
 
     public Vector3 GetValue(float i, float j)

@@ -5,13 +5,16 @@ using UnityEngine;
 public class BroomFly : MonoBehaviour
 {
     public float force = 1;
+    public float maxSpeed = 8;
 
     void Update()
     {
         Vector3 direction = PerlinTest.Instance.GetValue(transform.position.x, transform.position.y);
         direction.x = Mathf.Lerp(-1, 1, direction.x);
-        //direction.y = Mathf.Lerp(-1, 1, direction.y);
+        direction.y *= 2f;
         direction.z = Mathf.Lerp(-1, 1, direction.z);
-        GetComponent<Rigidbody>().AddForce(direction.normalized * force);
+        var rb = GetComponent<Rigidbody>();
+        rb.AddForce((direction.normalized + (direction.normalized.y * transform.up * 3f)) * force );
+        rb.velocity = Vector3.ClampMagnitude(rb.velocity, maxSpeed);
     }
 }
